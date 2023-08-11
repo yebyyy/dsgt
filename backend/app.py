@@ -57,3 +57,4 @@ if __name__ == "__main__":
     logger.info("Backend starting")
     logger.debug("Debug mode enabled")
     app.run(debug=True, host="0.0.0.0", port=PORT)
+    print("Hello, World!")
